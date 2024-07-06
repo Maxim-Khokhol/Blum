@@ -1,0 +1,39 @@
+.game-block {
+  width: 80%;
+  border-radius: 20px;
+  height: 550px;
+  margin-bottom: 200px;
+  margin-top: 100px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.game-block div {
+  width: 40%;
+  height: 98%;
+  border-radius: 20px;
+}
+
+.game-bg {
+  width: 30% !important;
+  height: 90%;
+  position: relative;
+  overflow: hidden;
+}
+
+.snowflake {
+  position: absolute;
+  height: 40px;
+  width: auto;
+  top: 0;
+  left: 0;
+}
+
+@keyframes fall {
+  100% {
+    top: 100%;
+  }
+}
+

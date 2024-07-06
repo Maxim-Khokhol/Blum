@@ -1,0 +1,27 @@
+@media (max-width: 599px) {
+  .coins-block p {
+    font-size: 20px;
+    padding: 10px 50px;
+    background-color: #747bff;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    color: black;
+  }
+  .coins-block{
+    width: 110%;
+    text-align: center;
+    margin-left: -10px;
+  }
+  .coin{
+    width: 100px;
+    height: auto;
+  }
+}
+@media (max-width: 920px) and (min-width: 599px){
+  .coins-block p{
+    font-size: 18px;
+  }
+  .coin{
+    width: 120px;
+    height: auto;
+  }
+}

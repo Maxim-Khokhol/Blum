@@ -1,0 +1,127 @@
+.trade-each-token{
+  color: lightslategrey;
+  font-size: 150px;
+  width: 220%;
+  margin: 0;
+  opacity: 0.3;
+}
+.trade-each-token-block{
+  display: flex;
+  flex-direction: column;
+}
+#trade-each-token-span{
+  color: lightslategrey;
+}
+.trade-each-token-block{
+  width: 100%;
+  height: 10%;
+  overflow-x: hidden;
+  margin-top: 50px;
+  box-sizing: border-box;
+  margin-bottom: 100px;
+
+}
+
+@media (max-width: 1380px) and (min-width: 1280px){
+  .trade-each-token{
+    width: 240%;
+  }
+}
+@media (max-width: 1280px) and (min-width: 1185px){
+  .trade-each-token{
+    width: 259%;
+  }
+}
+@media (max-width: 1185px) and (min-width: 980px){
+  .trade-each-token{
+    width: 310%;
+    font-size: 150px;
+  }
+}
+@media (max-width: 980px) and (min-width: 885px){
+  .trade-each-token{
+    width: 320%;
+    font-size: 140px;
+  }
+}
+@media (max-width: 885px) and (min-width: 785px){
+  .trade-each-token{
+    width: 359%;
+    font-size: 140px;
+  }
+}
+@media (max-width: 785px) and (min-width: 745px){
+  .trade-each-token{
+    width: 380%;
+    font-size: 140px;
+  }
+}
+@media (max-width: 745px) and (min-width: 640px){
+  .trade-each-token{
+    width: 380%;
+    font-size: 120px;
+  }
+}
+@media (max-width: 640px) and (min-width: 532px){
+  .trade-each-token{
+    width: 345%;
+    font-size: 100px;
+  }
+  .trade-each-token-block{
+    width: 110%;
+  }
+}
+@media (max-width: 532px) and (min-width: 465px){
+  .trade-each-token{
+    width: 355%;
+    font-size: 90px;
+  }
+  .trade-each-token-block{
+    width: 110%;
+  }
+}
+@media (max-width: 465px) and (min-width: 412px){
+  .trade-each-token{
+    width: 400%;
+    font-size: 90px;
+  }
+  .trade-each-token-block{
+    width: 110%;
+  }
+}
+@media (max-width: 412px) and (min-width: 390px){
+  .trade-each-token{
+    width: 400%;
+    font-size: 85px;
+  }
+  .trade-each-token-block{
+    width: 110%;
+  }
+}
+@media (max-width: 390px) and (min-width: 350px){
+  .trade-each-token{
+    width: 420%;
+    font-size: 80px;
+  }
+  .trade-each-token-block{
+    width: 110%;
+  }
+}
+@media (max-width: 350px) and (min-width: 335px){
+  .trade-each-token{
+    width: 440%;
+    font-size: 80px;
+  }
+  .trade-each-token-block{
+    width: 110%;
+  }
+}
+@media (max-width: 335px) and (min-width: 320px){
+  .trade-each-token{
+    width: 460%;
+    font-size: 80px;
+  }
+  .trade-each-token-block{
+    width: 110%;
+  }
+}
